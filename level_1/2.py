@@ -1,7 +1,7 @@
 from constants import ___
 
 
-def is_adult(age: ___, country_name: ___) -> ___:
+def is_adult(age: int, country_name: str) -> bool:
     pass
 
 
