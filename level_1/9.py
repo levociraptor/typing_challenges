@@ -1,4 +1,3 @@
-from constants import ___
 
 
 def is_correct_int(raw_int: str | None) -> bool:

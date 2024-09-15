@@ -1,4 +1,3 @@
-from constants import ___
 
 
 def send_email(header: str, text_content: str, send_to: str) -> None:
