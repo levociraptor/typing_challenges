@@ -1,6 +1,9 @@
+from typing import TypeAlias
+
+Point: TypeAlias = tuple[int, int]
 
 
-def is_point_in_square(point: tuple[int, int], left_upper_corner: tuple[int, int], right_bottom_corner: tuple[int, int]) -> bool:
+def is_point_in_square(point: Point, left_upper_corner: Point, right_bottom_corner: Point) -> bool:
     pass
 
 
