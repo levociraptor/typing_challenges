@@ -1,6 +1,10 @@
+from typing import TypeAlias
+
+Tuple_user_ids: TypeAlias = tuple[str, int, list[int]]
+Dict_user_ids: TypeAlias = dict[int, Tuple_user_ids]
 
 
-def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: dict[int, tuple[str, int, list[int]]]) -> int:
+def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: Dict_user_ids) -> int:
     pass
 
 
