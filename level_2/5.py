@@ -1,6 +1,9 @@
+from typing import TypeAlias
+
+User: TypeAlias = tuple[str, int, str]
 
 
-def get_current_user() -> tuple[str, int, str]:
+def get_current_user() -> User:
     pass
 
 
