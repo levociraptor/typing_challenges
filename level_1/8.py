@@ -2,7 +2,7 @@ import decimal
 import uuid
 
 
-def get_user_balance(user_id: uuid.uuid4) -> decimal.Decimal:
+def get_user_balance(user_id: uuid.UUID) -> decimal.Decimal:
     pass
 
 
