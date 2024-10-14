@@ -1,11 +1,11 @@
 from typing import TypeAlias
 import datetime
 
-Shopping_list: TypeAlias = list[tuple[str, int, float]]
-Cash_receipt = tuple[int, datetime.date, Shopping_list]
+ShoppingList: TypeAlias = list[tuple[str, int, float]]
+CashReceipt: TypeAlias = tuple[int, datetime.date, ShoppingList]
 
 
-def parse_receipt(raw_receipt: str) -> Cash_receipt:
+def parse_receipt(raw_receipt: str) -> CashReceipt:
     pass
 
 
